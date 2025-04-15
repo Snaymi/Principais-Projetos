@@ -2,15 +2,51 @@ body{
   background-color: #222;
 
 }
-
-  h1{
+@media (max-width: 768px) {
+    h1{
   font-family: 'IBM Plex Mono', monospace;
   color: #fff;
+  font-size: 14px;
+  text-align: center;
 }
   h2{
   font-family: 'IBM Plex Mono', monospace;
   color: #fff;
+  text-align: center;
 }
   h2 p {
-  color: rgb(78, 78, 197)
+  color: rgb(0, 106, 255)
   }
+  .box-title{
+    background-color: #1e2755;
+    border: double;  
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    
+  }
+  
+  .box-linkedin{
+    background-color: #055160;
+    border: double;  
+    width: 18%;
+    position: absolute;
+    top: 54%;
+    font-family: 'IBM Plex Mono';
+    color: #50dfff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .box-linkedin img{
+      width: 15px;
+      margin: 1px;
+      padding: 1px;
+
+    
+  }
+
+ 
+}
